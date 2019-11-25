@@ -1,3 +1,36 @@
+# technical_test_react_web_short
+
+Simple react app to use as basis to talk about code in interviews
+
+## Installation
+
+see below...
+
+## Some topics to talk about
+
+### Run through / lifecycle
+
+* A bit theoretical:  What's the lifecycle of this react app?
+* How would you test the app?
+
+### Tasks
+
+* Show the myShip GeoJSON on the map!
+* Fix the app so that the map shows the area where the GeoJSON line is being drawn on startup.
+* Extract the GeoJSON line to a separate file and load it and display it once the map is rendered.
+* Using a publicly available web endpoint that serves GeoJSON, implement the loading and rendering of GeoJSON loaded over the internet.
+
+Some sources of public GeoJSON serving APIs:
+
+https://earthquake.usgs.gov/fdsnws/event/1/
+https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01&endtime=2014-01-02
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson
+
+http://dati.retecivica.bz.it/services/meteo/v1/stations
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
